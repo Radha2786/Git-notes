@@ -1,0 +1,24 @@
+#  untracked file----> vo files jinki history nhi h (for example in wedding vo couple jinki photos ni hui h )
+   they are untracked files. so we send those files on the stage (that is we use--->git add . )
+#  git status----> to check the status (whether file is permanently saved in the history or not)
+#  git commit -m "names.txt file added"------> if we want to give any msg / to commit changes.
+#  to display whatever is available in the file--->cat filenjame.
+#  git restore --staged names.txt/ file name--->to remove the files from the stage.
+#  git log----> to see the history of the file like what changes were made and when 
+and by whom.(basically history of the project)
+#  to delete the file---> rm -rf filename
+#  git reset f4954cef878798----> all the commits above it will be removes.
+#  if we don't want to commit the changes but we 
+also don't want to loose these changes ----> git stash
+#  git stash pop---->to commit changes (all the people who are backstage
+come to the staged area basically).
+#  to attach the url of the repository with the project---> git remote add origin https://github.com/Radha2786/New-Repository.git
+# git remote -v  ---->to see the url which are attached to the folder/project
+# ab jo hum changes kar rhe h project m vo url m bhi jaaye 
+so we use ---> git push origin master 
+(which url u want to push - origin,which branch you want to push-master)
+#  after forking the project we need to download it using---> git clone https://github.com/GARY121github/Myntra.git
+(after this we can access the files in it and everything)
+
+# we can not directly make changes in anyone's account so we have to fork it.
+# from where we have forked the project that is known as--->upstream url
